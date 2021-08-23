@@ -16,17 +16,19 @@ The information extracted from sentiment analysis and gender prediction can be u
 We used this Covid-19 tweet data set :
 https://www.kaggle.com/gpreda/covid19-tweets
 
-We did some pre-processing steps on tweet text such as remove Emojies,Usernames ,URLs, Hashtags , Stemming and prepare it for further analysis.
+We did some pre-processing steps on tweet text such as remove Emojies,Usernames ,URLs, Hashtags , Stemming and prepare it for further analysis.<br />
 
 **Explatory Analysis**
 We found the most 10 frequent words in tweets, Top 10 Hshtags , Top 10 Locations with most tweets , Top 10 Sources for tweets , Prevalen words in tweets. 
-You can find all these parts in Jupyter Notebook file
+You can find all these parts in Jupyter Notebook file. Some sample output is as bellow:<br />
 
 *Most Frequent Words*
-<img width="678" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
+
+<img width="1024" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
 
 *Word Cloud*
-<img width="275" alt="Word Cloud" src="https://user-images.githubusercontent.com/81987771/130511419-ddfa7571-4de3-4372-8f92-27e608a5b8ce.png">
+
+<img width="475" alt="Word Cloud" src="https://user-images.githubusercontent.com/81987771/130511419-ddfa7571-4de3-4372-8f92-27e608a5b8ce.png">
 
 
 
