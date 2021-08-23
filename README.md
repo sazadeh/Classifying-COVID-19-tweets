@@ -1,9 +1,6 @@
 # Classifying-COVID-19-tweets
 Classifying COVID-19 related Tweets based on Gender and Sentiment
 
-# Classifying-COVID-19-tweets
-Classifying COVID-19 related Tweets based on Gender and Sentiment
-
 **Objective**
 The objective of this research is to do sentiment analysis and gender prediction based on the tweet text and then try to classify the tweets based on their 
 sentiments and gender with different machine learning models and compare the results. 
@@ -25,8 +22,10 @@ We did some pre-processing steps on tweet text such as remove Emojies,Usernames 
 We found the most 10 frequent words in tweets, Top 10 Hshtags , Top 10 Locations with most tweets , Top 10 Sources for tweets , Prevalen words in tweets. 
 You can find all these parts in Jupyter Notebook file
 
-<img width="275" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
+*Most Frequent Words*
+<img width="678" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
 
+*Word Cloud*
 <img width="275" alt="Word Cloud" src="https://user-images.githubusercontent.com/81987771/130511419-ddfa7571-4de3-4372-8f92-27e608a5b8ce.png">
 
 
