@@ -34,6 +34,7 @@ You can find all these parts in Jupyter Notebook file. Some sample output is as 
 
 
 **Methodology**<br />
+*Sentiment Anaysis*
 We used **VaderSentiment Package** and **LIWC** for predicting the sentiment of each tweets.<br />
 **Note:** You should have a license for using LIWC.<br /> 
 Then we chose the result of *VaderSentiment* as our labels for the dataset and tried to classify the tweets based on **Naive Bayes, XGBoost, Random Forest, and Support Vector Machine**.  We got the best result based on **XGBoost** and tried to classify the tweets based on that, and here is the result:<br />
