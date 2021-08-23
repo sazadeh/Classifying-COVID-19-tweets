@@ -1,4 +1,4 @@
-![VaderSentiment](https://user-images.githubusercontent.com/81987771/130517308-21e6faa3-49c0-43cb-8656-ac2804e9e69c.png)
+
 # Classifying-COVID-19-tweets
 Classifying COVID-19 related Tweets based on Gender and Sentiment
 
