@@ -14,8 +14,8 @@ The information extracted from sentiment analysis and gender prediction can be u
 
 **Data set**<br />
 We used this Covid-19 tweet data set :
-https://www.kaggle.com/gpreda/covid19-tweets
-**Note** You have to download this CSV file and put it in *Data* folder before running the Jupyter Notebook file
+https://www.kaggle.com/gpreda/covid19-tweets <br />
+**Note:** You have to download the CSV file  from above URL and put it in *Data* folder before running the Jupyter Notebook file
 
 We did some pre-processing steps on tweet text such as remove Emojies,Usernames ,URLs, Hashtags , Stemming and prepare it for further analysis.<br />
 
