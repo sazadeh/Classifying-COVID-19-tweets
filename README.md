@@ -37,7 +37,7 @@ We used **VaderSentiment Package** and **LIWC** for predicting the sentiment of 
 **Note:** You should have a license for using LIWC.<br /> 
 Then we chose the result of *VaderSentiment* as our labels for the dataset and tried to classify the tweets based on **Naive Bayes , XGBoost , Random Forest and Support Vector Machine**.  We got the best result based on **XGBoost** and tried to classify the tweets based on that and here is the result:<br />
 
-<img align=left width="400" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <img align=right width="350" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png"> <br />
+<img align=left width="400" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <br /><img align=right width="350" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png"> <br />
 
 <br />
 <br />
