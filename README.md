@@ -24,11 +24,11 @@ You can find all these parts in Jupyter Notebook file. Some sample output is as 
 
 *Most Frequent Words*
 
-<img align="center" width="1024" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
+<img align=center width="1024" alt="Most Frequent Words" src="https://user-images.githubusercontent.com/81987771/130511540-699aeb76-b3d2-4236-a1e5-ead8753ea8f7.png">
 
 *Word Cloud*
 
-<img  align=center width="475" alt="Word Cloud" src="https://user-images.githubusercontent.com/81987771/130511419-ddfa7571-4de3-4372-8f92-27e608a5b8ce.png">
+<img align=center width="475" alt="Word Cloud" src="https://user-images.githubusercontent.com/81987771/130511419-ddfa7571-4de3-4372-8f92-27e608a5b8ce.png">
 
 
 
@@ -37,6 +37,6 @@ We used **VaderSentiment Package ** and **LIWC** for predicting the sentiment of
 **Note:** You should have a license for using LIWC.<br /> 
 Then we chose the result of *VaderSentiment* as our labels for the dataset and tried to classify the tweets based on **Naive Bayes , XGBoost , Random Forest and Support Vector Machine**.  We got the best result based on **XGBoost** and tried to classify the tweets based on that and here is the result:
 
-<img align=left width="275" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <img align=right width="275" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png">
+<img align=left width="400" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <img align=right width="350" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png">
 
 
