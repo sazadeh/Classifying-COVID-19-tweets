@@ -37,13 +37,13 @@ We used **VaderSentiment Package** and **LIWC** for predicting the sentiment of 
 **Note:** You should have a license for using LIWC.<br /> 
 Then we chose the result of *VaderSentiment* as our labels for the dataset and tried to classify the tweets based on **Naive Bayes , XGBoost , Random Forest and Support Vector Machine**.  We got the best result based on **XGBoost** and tried to classify the tweets based on that and here is the result:
 
-<img align=left width="400" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <img align=right width="350" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png">
+<img align=left width="400" alt="Comparing the result of ML models for Classification" src="https://user-images.githubusercontent.com/81987771/130513166-4b44e911-2888-46e7-b656-7d5ad1f95370.png"> <img align=right width="350" alt="Classify Tweets based on the Sentiments by XGBoost" src="https://user-images.githubusercontent.com/81987771/130513007-6b985c2f-8e0c-4ada-916e-1a221b4f3209.png"> <br />
 
-We wanted to predict the gender-based on their tweet. We found a data set (https://www.kaggle.com/crowdflower/twitter-user-gender-classification) that has a gender for each tweet. We did the pre-processing steps on tweet text and considered the genders, female or male (we ignored unknown genders). Also kept the genders have the gender-confidence > 0.80. Then we used CountVectorize library to convert the tweet text into vectors. We changed female to 0 and male to 1 . The gender column is considered as our label. 
+We wanted to predict the gender-based on their tweet. We found a data set (https://www.kaggle.com/crowdflower/twitter-user-gender-classification) that has a gender for each tweet. We did the pre-processing steps on tweet text and considered the genders, female or male (we ignored unknown genders). Also kept the genders have the gender-confidence > 0.80. Then we used CountVectorize library to convert the tweet text into vectors. We changed female to 0 and male to 1 . The gender column is considered as our label. <br />
 
-We used **Naive Bayes , XGBoost , Random Forest and Support Vector Machine** and this time we got the best result based on **Naive Bayes** while training the model and then we used it to predict the gender on the main data set. We could not get the accuracy more than *60% *on this dataset. We checked this process with pre-trained BERT models and the maximum accuracy which we could get there was *61%* .
+We used **Naive Bayes , XGBoost , Random Forest and Support Vector Machine** and this time we got the best result based on **Naive Bayes** while training the model and then we used it to predict the gender on the main data set. We could not get the accuracy more than *60% *on this dataset. We checked this process with pre-trained BERT models and the maximum accuracy which we could get there was *61%* .<br />
 
-Here is the result. 
+Here is the result:<br /> 
 
 <img align=left width="400" alt="Naive Bayes - Gender Prediction" src="https://user-images.githubusercontent.com/81987771/130515255-f0ed789a-9696-465d-a73b-d55fd2c61654.png"> <img align=right width="350" alt="Naive Bayes- Gender Classification" src="https://user-images.githubusercontent.com/81987771/130515263-8c8b183b-459a-4bcb-80c7-72c71396755c.png">
 
